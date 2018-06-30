@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="manifest.json">
+	<link rel="shortcut icon" href="images/icon48.png" />
+	<title>Currency Converter</title>
+</head>
+<body>
+	<h3>Currency Converter</h3>
+	<div class="container">
+	  <div class="row">
+	  	<input type="text" id="amount" placeholder="FROM" class="u-full-width">
+		<select id="fromCurrency" class="u-full-width"></select>
+	  </div>
+	  <div class="row">
+	  	<label>TO</label>
+	  	<select id="toCurrency" class="u-full-width"></select>
+	  </div>
+	  <div class="row">
+		<button id="btnConvert" class="u-full-width">CONVERT</button>
+		<p id="output" class="u-full-width"></p>
+	  </div>
+	</div>
+	<div id="footer"><p>Made with love : <strong>Victor Gorvictech (mws-group-5 mws-team-25)</strong></p></div>
+    <script src="node_modules/idb/lib/idb.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
